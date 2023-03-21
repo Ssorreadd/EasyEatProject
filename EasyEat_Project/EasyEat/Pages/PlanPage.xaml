@@ -34,6 +34,7 @@
             </Canvas>
         </Canvas>
 
+        <TextBlock Text="Параметры" FontSize="64" Margin="40" HorizontalAlignment="Center" VerticalAlignment="Top" />
 
         <Border Background="#B2E8B8" BorderBrush="#52926F" BorderThickness="3" CornerRadius="50" VerticalAlignment="Center" HorizontalAlignment="Center" Width="617" Height="512">
             <StackPanel Margin="20" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">

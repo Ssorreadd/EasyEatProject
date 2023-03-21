@@ -61,7 +61,7 @@ namespace EasyEat.Pages.HelperPages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EasyEat;component/pages/helperpages/disheditdeletepage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EasyEat;V1.0.0.0;component/pages/helperpages/disheditdeletepage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Pages\HelperPages\DishEditDeletePage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
