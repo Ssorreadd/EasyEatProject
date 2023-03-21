@@ -205,7 +205,7 @@ namespace EasyEat.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EasyEat;V1.0.0.0;component/windows/eatdishwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EasyEat;component/windows/eatdishwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\EatDishWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

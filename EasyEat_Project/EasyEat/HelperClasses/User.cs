@@ -19,7 +19,6 @@
             private set { Activity = value; }
         }
 
-
         public static void Clear()
         {
             Gender = null;
@@ -28,6 +27,8 @@
             NeededCalories = 0;
             AllDayCalories = 0;
             WeightMode = null;
+
+            ListManager.Dishes.Clear();
         }
     }
 }
