@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is compatible with Silverlight-->
+<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Name="svg5" Width="107.23298" Height="75.804184">
+  <Canvas.RenderTransform>
+    <TranslateTransform X="0" Y="0"/>
+  </Canvas.RenderTransform>
+  <Canvas.Resources/>
+  <!--Unknown tag: sodipodi:namedview-->
+  <Canvas Name="layer1">
+    <Canvas.RenderTransform>
+      <TranslateTransform X="-59.222225" Y="-92.678555"/>
+    </Canvas.RenderTransform>
+    <Canvas Name="g218">
+      <Canvas Name="g54">
+        <Canvas.RenderTransform>
+          <MatrixTransform Matrix="0.26458333 0 0 0.26458333 60.677433 94.133763"/>
+        </Canvas.RenderTransform>
+        <Canvas Name="g32" Effect="{StaticResource filter0_f_2_8}">
+          <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path28" Fill="#ADFF5E03" Data="M 46.0706 274.517 C 16.4235 263.016 9.38824 216 0 216 V 0 H 395.5 L 332.165 12.5005 C 312.071 19.0009 269.906 4.5 276.329 36.502 282.753 68.504 232.353 135.508 229.882 91.5054 227.412 47.5027 172.565 77.0045 148.353 135.508 124.141 194.012 75.7176 286.017 46.0706 274.517 Z"/>
+          <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path30" StrokeThickness="3" Stroke="#B0FF5E03" Data="M 46.0706 274.517 C 16.4235 263.016 9.38824 216 0 216 V 0 H 395.5 L 332.165 12.5005 C 312.071 19.0009 269.906 4.5 276.329 36.502 282.753 68.504 232.353 135.508 229.882 91.5054 227.412 47.5027 172.565 77.0045 148.353 135.508 124.141 194.012 75.7176 286.017 46.0706 274.517 Z"/>
+        </Canvas>
+      </Canvas>
+    </Canvas>
+  </Canvas>
+</Canvas>

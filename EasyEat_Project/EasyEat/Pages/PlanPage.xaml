@@ -1,0 +1,86 @@
+﻿<Page x:Class="EasyEat.Pages.PlanPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EasyEat.Pages"
+      mc:Ignorable="d" Background="#B9F9C0"
+      d:DesignHeight="784.04" d:DesignWidth="1200" FontFamily="Comic Sans MS"
+      Title="MainPage">
+
+    <Grid>
+        <Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Name="svg201" Width="307.91501" Height="251.27083" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+            <Canvas.RenderTransform>
+                <TranslateTransform X="0" Y="0"/>
+            </Canvas.RenderTransform>
+            <Canvas.Resources/>
+            <Canvas Name="g208">
+                <Canvas.RenderTransform>
+                    <TranslateTransform X="1.5032753" Y="-0.24945696"/>
+                </Canvas.RenderTransform>
+                <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path199" Fill="#ADFF5E03" StrokeThickness="3" Stroke="#B0FF5E03" Data="m 150.133 164.91 c 119.282 -24.251 165.602 60.61 152.645 85.109 L 1.35845e-4 249.591 0.565945 0.853501 C 7.87461 17.4662 27.5018 57.0984 63.5248 51.8062 99.5479 46.514 164.263 101.091 114.734 103.109 c -49.5291 2.019 -83.8826 86.053 35.399 61.801 z"/>
+            </Canvas>
+        </Canvas>
+        <Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Name="svg19" Width="336.59232" Height="237.99939" HorizontalAlignment="Right" VerticalAlignment="Top">
+            <Canvas.RenderTransform>
+                <TranslateTransform X="0" Y="0"/>
+            </Canvas.RenderTransform>
+            <Canvas.Resources/>
+            <Canvas Name="g130">
+                <Canvas.RenderTransform>
+                    <TranslateTransform X="-0.90768618" Y="1.5"/>
+                </Canvas.RenderTransform>
+                <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path17" Fill="#ADFF5E03" StrokeThickness="3" Stroke="#B0FF5E03" Data="M 73.0758 109.372 C 68.5076 64.5778 110.797 6.77002 1 0 h 335 v 234.421 c -79.182 7.839 -54.033 -66.47 -52.28 -70.923 11.166 -28.37 -20.811 -61.592 -66.493 -28.37 C 171.545 168.35 77.644 154.166 73.0758 109.372 Z"/>
+            </Canvas>
+        </Canvas>
+
+
+        <Border Background="#B2E8B8" BorderBrush="#52926F" BorderThickness="3" CornerRadius="50" VerticalAlignment="Center" HorizontalAlignment="Center" Width="617" Height="512">
+            <StackPanel Margin="20" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top">
+                <StackPanel Orientation="Horizontal">
+                    <Button Style="{DynamicResource SelectPlanButtonsStyle}" Click="WeinghtLoss_Click" Content="Сбросить" x:Name="WeinghtLoss" FontSize="32" Width="194" Height="54" Margin="20 20 60 0"/>
+                    <Button Style="{DynamicResource SelectPlanButtonsStyle}" Click="WeinghtGain_Click" Content="Набрать" x:Name="WeinghtGain" FontSize="32" Width="194" Height="54"  Margin="60 20 20 0" />
+
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 60 0 0">
+                    <Border Background="#BFF4C5" BorderBrush="#638267" Margin=" 0 0 0 0"  BorderThickness="3 3 0 3" Width="160"  Height="47" CornerRadius="7 0 0 7">
+                        <TextBlock Text="Вес" HorizontalAlignment="Center" FontSize="32"  VerticalAlignment="Center"/>
+                    </Border>
+
+                    <Border Background="#98C79D" BorderBrush="#4A634D" Margin=" 0 0 0 0" BorderThickness="3 3 3 3" Width="292"  Height="47" CornerRadius="0 7 7 0">
+                        <TextBox Style="{DynamicResource PlanTextBoxStyle}" x:Name="WeightBox" Width="280" Height="47" FontSize="32" Background="#98C79D" BorderBrush="#98C79D" TextChanged="WeightBox_TextChanged" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
+                    </Border>
+                </StackPanel>
+
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 85 0 65">
+                    <Border Background="#BFF4C5" BorderBrush="#638267" Margin=" 0 0 0 0"  BorderThickness="3 3 0 3" Width="160"  Height="47" CornerRadius="7 0 0 7">
+                        <TextBlock Text="Рост" HorizontalAlignment="Center" FontSize="32"  VerticalAlignment="Center"/>
+                    </Border>
+
+                    <Border Background="#98C79D" BorderBrush="#4A634D" Margin=" 0 0 0 0" BorderThickness="3 3 3 3" Width="292"  Height="47" CornerRadius="0 7 7 0">
+                        <TextBox x:Name="HeightBox" Style="{DynamicResource PlanTextBoxStyle}" Width="280" Height="47" FontSize="32" Background="#98C79D" BorderBrush="#98C79D" TextChanged="HeightBox_TextChanged" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
+                    </Border>
+                </StackPanel>
+
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="20">
+                    <Border Background="#BFF4C5" BorderBrush="#638267" Margin=" 0 0 0 0"  BorderThickness="3 3 0 3" Width="160"  Height="47" CornerRadius="7 0 0 7">
+                        <TextBlock Text="Возраст" HorizontalAlignment="Center" FontSize="32"  VerticalAlignment="Center"/>
+                    </Border>
+
+                    <Border Background="#98C79D" BorderBrush="#4A634D" Margin=" 0 0 0 0" BorderThickness="3 3 3 3" Width="292"  Height="47" CornerRadius="0 7 7 0">
+                        <TextBox x:Name="AgeBox" Style="{DynamicResource PlanTextBoxStyle}" Width="280" Height="47" FontSize="32" Background="#98C79D" BorderBrush="#98C79D" VerticalAlignment="Center" TextChanged="AgeBox_TextChanged" VerticalContentAlignment="Center"/>
+                    </Border>
+                </StackPanel>
+
+            </StackPanel>
+        </Border>
+
+        <Button Style="{DynamicResource NavigationButtonsStyle}" x:Name="back" Content="  Назад  " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40 25 25 25"  Click="back_Click" FontSize="24" />
+        <Button Style="{DynamicResource NavigationButtonsStyle}" x:Name="NextButton" Content="  Далее  " HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="25 25 40 25"  Click="NextButton_Click" Visibility="Hidden" FontSize="24" />
+
+       
+    </Grid>
+</Page>

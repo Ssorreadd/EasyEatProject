@@ -1,0 +1,12 @@
+C:\Users\d169\Desktop\ClassLibrary2\bin\Debug\net6.0\ClassLibrary2.deps.json
+C:\Users\d169\Desktop\ClassLibrary2\bin\Debug\net6.0\ClassLibrary2.dll
+C:\Users\d169\Desktop\ClassLibrary2\bin\Debug\net6.0\ClassLibrary2.pdb
+C:\Users\d169\Desktop\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.csproj.AssemblyReference.cache
+C:\Users\d169\Desktop\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\d169\Desktop\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.AssemblyInfoInputs.cache
+C:\Users\d169\Desktop\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.AssemblyInfo.cs
+C:\Users\d169\Desktop\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.csproj.CoreCompileInputs.cache
+C:\Users\d169\Desktop\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.dll
+C:\Users\d169\Desktop\ClassLibrary2\obj\Debug\net6.0\refint\ClassLibrary2.dll
+C:\Users\d169\Desktop\ClassLibrary2\obj\Debug\net6.0\ClassLibrary2.pdb
+C:\Users\d169\Desktop\ClassLibrary2\obj\Debug\net6.0\ref\ClassLibrary2.dll

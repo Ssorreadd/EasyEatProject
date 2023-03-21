@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is compatible with Silverlight-->
+<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Name="svg201" Width="307.91501" Height="251.27083">
+  <Canvas.RenderTransform>
+    <TranslateTransform X="0" Y="0"/>
+  </Canvas.RenderTransform>
+  <Canvas.Resources/>
+  <!--Unknown tag: sodipodi:namedview-->
+  <Canvas Name="g208">
+    <Canvas.RenderTransform>
+      <TranslateTransform X="1.5032753" Y="-0.24945696"/>
+    </Canvas.RenderTransform>
+    <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path199" Fill="#ADFF5E03" StrokeThickness="3" Stroke="#B0FF5E03" Data="m 150.133 164.91 c 119.282 -24.251 165.602 60.61 152.645 85.109 L 1.35845e-4 249.591 0.565945 0.853501 C 7.87461 17.4662 27.5018 57.0984 63.5248 51.8062 99.5479 46.514 164.263 101.091 114.734 103.109 c -49.5291 2.019 -83.8826 86.053 35.399 61.801 z"/>
+  </Canvas>
+</Canvas>
