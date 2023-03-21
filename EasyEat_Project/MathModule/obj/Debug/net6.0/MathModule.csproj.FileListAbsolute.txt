@@ -22,3 +22,15 @@ C:\Users\d169\Desktop\проект\MathModule\obj\Debug\net6.0\MathModule.dll
 C:\Users\d169\Desktop\проект\MathModule\obj\Debug\net6.0\refint\MathModule.dll
 C:\Users\d169\Desktop\проект\MathModule\obj\Debug\net6.0\MathModule.pdb
 C:\Users\d169\Desktop\проект\MathModule\obj\Debug\net6.0\ref\MathModule.dll
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\MathModule\bin\Debug\net6.0\MathModule.deps.json
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\MathModule\bin\Debug\net6.0\MathModule.dll
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\MathModule\bin\Debug\net6.0\MathModule.pdb
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\MathModule\obj\Debug\net6.0\MathModule.csproj.AssemblyReference.cache
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\MathModule\obj\Debug\net6.0\MathModule.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\MathModule\obj\Debug\net6.0\MathModule.AssemblyInfoInputs.cache
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\MathModule\obj\Debug\net6.0\MathModule.AssemblyInfo.cs
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\MathModule\obj\Debug\net6.0\MathModule.csproj.CoreCompileInputs.cache
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\MathModule\obj\Debug\net6.0\MathModule.dll
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\MathModule\obj\Debug\net6.0\refint\MathModule.dll
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\MathModule\obj\Debug\net6.0\MathModule.pdb
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\MathModule\obj\Debug\net6.0\ref\MathModule.dll

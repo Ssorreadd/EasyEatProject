@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\d169\Desktop\проект\EasyEat\obj\Debug\net6.0-windows\
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\EasyEat\obj\Debug\net6.0-windows\
 EasyEat
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\d169\Desktop\проект\EasyEat\App.xaml
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\EasyEat\App.xaml
 7250635296
-
+11562051256
 19984242817
-21494585398
+214-1354464186
 Pages\HelperPages\DishEditDeletePage.xaml;Pages\HelperPages\DishInfoPage.xaml;Pages\MainPage.xaml;Pages\PlanPage.xaml;Pages\StartPage.xaml;Windows\EatDishWindow.xaml;Windows\MainWindow.xaml;
 
-False
+True
 

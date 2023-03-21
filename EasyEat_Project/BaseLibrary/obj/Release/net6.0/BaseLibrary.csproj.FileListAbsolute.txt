@@ -10,3 +10,15 @@ C:\Users\d169\Desktop\проект\BaseLibrary\obj\Release\net6.0\BaseLibrary.dl
 C:\Users\d169\Desktop\проект\BaseLibrary\obj\Release\net6.0\refint\BaseLibrary.dll
 C:\Users\d169\Desktop\проект\BaseLibrary\obj\Release\net6.0\BaseLibrary.pdb
 C:\Users\d169\Desktop\проект\BaseLibrary\obj\Release\net6.0\ref\BaseLibrary.dll
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\BaseLibrary\bin\Release\net6.0\BaseLibrary.deps.json
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\BaseLibrary\bin\Release\net6.0\BaseLibrary.dll
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\BaseLibrary\bin\Release\net6.0\BaseLibrary.pdb
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\BaseLibrary\obj\Release\net6.0\BaseLibrary.csproj.AssemblyReference.cache
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\BaseLibrary\obj\Release\net6.0\BaseLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\BaseLibrary\obj\Release\net6.0\BaseLibrary.AssemblyInfoInputs.cache
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\BaseLibrary\obj\Release\net6.0\BaseLibrary.AssemblyInfo.cs
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\BaseLibrary\obj\Release\net6.0\BaseLibrary.csproj.CoreCompileInputs.cache
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\BaseLibrary\obj\Release\net6.0\BaseLibrary.dll
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\BaseLibrary\obj\Release\net6.0\refint\BaseLibrary.dll
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\BaseLibrary\obj\Release\net6.0\BaseLibrary.pdb
+C:\Users\d169\Desktop\EasyEat\EasyEat_Project\BaseLibrary\obj\Release\net6.0\ref\BaseLibrary.dll

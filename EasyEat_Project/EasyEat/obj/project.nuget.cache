@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fohywV4n+WfBqlKXmK/3j7UweZAx9+vCBbE91/Y35u5Q+qQ9x+bssTWEKl62IfNa4g3YmI6V22/5zwkwC5OaNg==",
+  "dgSpecHash": "C0SP2Qsl0XTMHOU+jWTGxXjzv2WuNBJ2orXPYmIluYqFmNdLYA/VsyIopaPi8KnK91Kf+EKvigBFeEd0utb5xw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\d169\\Desktop\\EasyEat\\EasyEat\\EasyEat.csproj",
+  "projectFilePath": "C:\\Users\\d169\\Desktop\\EasyEat\\EasyEat_Project\\EasyEat\\EasyEat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\d169\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.4\\microsoft.data.sqlite.core.7.0.4.nupkg.sha512",
     "C:\\Users\\d169\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",

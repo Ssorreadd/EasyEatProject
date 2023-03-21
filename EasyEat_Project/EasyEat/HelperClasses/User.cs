@@ -18,5 +18,16 @@
             }
             private set { Activity = value; }
         }
+
+
+        public static void Clear()
+        {
+            Gender = null;
+            Age = 0;
+            Height = 0;
+            NeededCalories = 0;
+            AllDayCalories = 0;
+            WeightMode = null;
+        }
     }
 }

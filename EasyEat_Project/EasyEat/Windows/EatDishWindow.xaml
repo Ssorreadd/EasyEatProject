@@ -5,10 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EasyEat.Windows"
         mc:Ignorable="d" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen"
-        Title="EatDishWindow" Height="700" Width="1100" Background="#AEEDB5">
+        Title="EasyEat" Height="700" Width="1100" Background="#AEEDB5">
     <Grid>
-
-
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="400"/>
             <ColumnDefinition Width="*"/>
@@ -66,8 +64,6 @@
             </Path>
         </Canvas>
 
-
-
         <Button x:Name="EatDishButton" Click="EatDishButton_Click" Visibility="Hidden" VerticalContentAlignment="Top" Padding="3" Width="82" Height="45"   Margin="-25 80 20 -15" Content="Съесть" HorizontalAlignment="Left" VerticalAlignment="Bottom" Grid.Column="2" FontSize="16">
             <Button.Style>
                 <Style TargetType="Button"  BasedOn="{StaticResource NavigationButtonsStyle}">
@@ -105,8 +101,6 @@
             </Button.RenderTransform>
         </Button>
 
- 
-
         <StackPanel Orientation="Vertical" VerticalAlignment="Top"  Margin="20 27 0 20" >
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Border Background="#D6FFDA" BorderBrush="#89BB8F"  BorderThickness="3 3 1.5 3" Width="70"  Height="42" CornerRadius="10 0 0 10">
@@ -119,12 +113,7 @@
             </StackPanel>
         </StackPanel>
 
-
-
         <Frame Name="DishFrameLV" NavigationUIVisibility="Hidden" Grid.Column="2"/>
-
-
-
 
         <ListView Name="ProductsLV" Margin="20 98 0 30" Width="366" Style="{StaticResource ProductsStyleLV}" SelectionChanged="ProductsLV_SelectionChanged" ScrollViewer.VerticalScrollBarVisibility="Hidden" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Grid.Row="1">
             <ListView.ItemContainerStyle>
@@ -137,15 +126,7 @@
                 <DataTemplate>
                     <Grid Margin="10">
                         <StackPanel Orientation="Horizontal">
-                            <!--<Viewbox Height="22" VerticalAlignment="Center" HorizontalAlignment="Left">
-                                <CheckBox Content="{Binding Name}" x:Name="ProductCheckBox"/>
-                            </Viewbox>-->
                             <TextBlock x:Name="ProductName" Text="{Binding Name}" MaxWidth="300" TextWrapping="Wrap" FontSize="18"/>
-
-                            <!--<TextBlock x:Name="ProductName" Text="{Binding Name}" FontSize="24" HorizontalAlignment="Center" FontFamily="Comic Sans MS" Margin="0 15 0 0" />-->
-
-
-
                         </StackPanel>
                     </Grid>
                 </DataTemplate>
@@ -159,24 +140,14 @@
                 <DataTemplate>
                     <Grid Margin="10">
                         <StackPanel Orientation="Horizontal">
-                            <!--<Viewbox Height="22" VerticalAlignment="Center" HorizontalAlignment="Left">
-                                <CheckBox Content="{Binding Name}" x:Name="ProductCheckBox"/>
-                            </Viewbox>-->
                             <TextBlock x:Name="ProductName" Text="{Binding ProductName}" MaxWidth="240" TextWrapping="Wrap" FontSize="18"/>
                             <TextBlock Text=" | " MaxWidth="240" TextWrapping="Wrap" FontSize="18"/>
-
                             <TextBlock x:Name="ProductNameCalories" Text="{Binding ProductCalories, StringFormat={}{0} ккал}" TextWrapping="Wrap" FontSize="18"/>
-
-                            <!--<TextBlock x:Name="ProductName" Text="{Binding Name}" FontSize="24" HorizontalAlignment="Center" FontFamily="Comic Sans MS" Margin="0 15 0 0" />-->
-
-
-
                         </StackPanel>
                     </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-
 
         <Border Background="#D6FFDA" BorderBrush="#52926F" Width="277" BorderThickness="4 4 1 1" Margin="7.2 80 20 75" Height="37" VerticalAlignment="Bottom" HorizontalAlignment="Left"  Grid.Column="2" CornerRadius="0 0 0 0">
             <TextBlock Text="Наименование блюда" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Center" />
@@ -184,9 +155,7 @@
 
         <Border Background="#E5FFE8" BorderBrush="#52926F" Width="277" BorderThickness="4 1 1 4" Margin="7.2 80 20 30" Height="45" VerticalAlignment="Bottom"  HorizontalAlignment="Left" Grid.Column="2" CornerRadius="0 0 0 10">
             <TextBox x:Name="DishNameBox" Width="260" Height="40" FontSize="16" VerticalAlignment="Center" TextWrapping="Wrap" VerticalContentAlignment="Center" TextAlignment="Center" TextChanged="DishNameBox_TextChanged"/>
-
         </Border>
-
 
         <Border Background="#D6FFDA" BorderBrush="#52926F" Width="90" BorderThickness="2 4 4 1" Margin="0 77 27.15 75" HorizontalAlignment="Right" Height="37" VerticalAlignment="Bottom" Grid.Column="2" CornerRadius="0 0 0 0">
             <TextBlock Text="Всего ккал" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" />
@@ -196,11 +165,8 @@
             <TextBlock Name="AllCalories" Text="0" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" />
         </Border>
 
-
         <Border Background="#4B998B" BorderBrush="#2E645A" BorderThickness="4"  Margin="0 77 20 20" Height="23" Width="366" VerticalAlignment="Top" Grid.Column="2" Grid.Row="1" CornerRadius="10 10 0 0"/>
 
-
         <Frame Grid.Row="1" Grid.Column="1" Name="EatDishWindowFrame" NavigationUIVisibility="Hidden" Margin="10 150 10 150" Height="260"/>
-
     </Grid>
 </Window>

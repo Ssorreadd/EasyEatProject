@@ -4,6 +4,9 @@
              xmlns:local="clr-namespace:EasyEat"
              StartupUri="Windows\MainWindow.xaml">
     <Application.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="TextElement.FontFamily" Value="Fonts/Vinque_Rg.ttf #Vinque Rg"/>
+        </Style>
 
         <SolidColorBrush x:Key="ListBox.Static.Background" Color="Transparent"/>
         <SolidColorBrush x:Key="ListBox.Static.Border" Color="Transparent"/>
@@ -38,6 +41,7 @@
             <Setter Property="HorizontalContentAlignment" Value="Left"/>
             <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
             <Setter Property="AllowDrop" Value="true"/>
+            <Setter Property="FontFamily" Value="Fonts/Vinque_Rg.ttf #Vinque Rg"/>
             <Setter Property="ScrollViewer.PanningMode" Value="VerticalFirst"/>
             <Setter Property="Stylus.IsFlicksEnabled" Value="False"/>
             <Setter Property="Template">
@@ -70,7 +74,7 @@
                 </MultiTrigger>
             </Style.Triggers>
         </Style>
-        <Style TargetType="{x:Type TextBox}" >
+        <Style TargetType="TextBox" >
             <Setter Property="Background" Value="#E5FFE8"/>
             <Setter Property="BorderBrush" Value="#E5FFE8"/>
             <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
@@ -80,6 +84,7 @@
             <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
             <Setter Property="AllowDrop" Value="true"/>
             <Setter Property="ScrollViewer.PanningMode" Value="VerticalFirst"/>
+            <Setter Property="FontFamily" Value="Fonts/Vinque_Rg.ttf #Vinque Rg"/>
             <Setter Property="Stylus.IsFlicksEnabled" Value="False"/>
             <Setter Property="Template">
                 <Setter.Value>

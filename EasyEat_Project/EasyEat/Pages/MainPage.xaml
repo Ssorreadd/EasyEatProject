@@ -5,12 +5,12 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:EasyEat.Pages"
       mc:Ignorable="d" Background="#B9F9C0"
-      d:DesignHeight="784.04" d:DesignWidth="1200" FontFamily="Comic Sans MS"
+      d:DesignHeight="784.04" d:DesignWidth="1200"
       Title="MainPage">
 
     <Grid>
-
         <Button Content="Параметры" Margin="30" FontSize="17" Click="ParametrsButton_Click" x:Name="ParametrsButton" Style="{StaticResource NavigationButtonsStyle}" HorizontalAlignment="Left" VerticalAlignment="Bottom" />
+        
         <Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Name="svg31" Width="42.958912" Height="85.11631" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="30 30 50 30">
             <Canvas.RenderTransform>
                 <TranslateTransform X="0" Y="0"/>
@@ -27,7 +27,6 @@
                 <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path29" StrokeThickness="3" Stroke="#FFFF5E03" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeEndLineCap="Round" Data="m 16.9438 34.821 c 8.2114 -7.2432 15.5467 -0.1417 15.5467 -0.1417 0 0 3.1417 1.9459 5.0095 11.8207 M 16.9438 34.821 c 0 0 -8.48093 -8.536 -14.33914 2.4729 -1.49416 2.8079 0 6.9301 4.12167 12.6891 1.2351 1.7257 4.85457 5.9095 9.30857 10.741 m 0.9089 -25.903 c -0.2274 -1.0507 -0.3817 -2.1136 -0.469 -3.1819 m 0.469 3.1819 c -0.0941 -1.0758 -0.2571 -2.1371 -0.469 -3.1819 M 37.5 46.5 c 1.8678 9.8748 4.1346 30.2302 4.5 37 C 42.2559 88.2411 26.4445 72.0158 16.0349 60.724 M 37.5 46.5 c 0 0 1.0773 6.5 -6 5.5 M 16.0349 60.724 C 21.1854 65.6094 26.5 61.5 28 60 M 16.4748 31.6391 C 15.3859 18.3096 24.7336 4.14455 32.7076 2.40618 M 16.4748 31.6391 C 15.876 28.6864 14.8869 25.8649 13.9587 23.2171 11.5927 16.4683 9.62202 10.8472 15.5182 7.05337 21.4703 3.2236 28.5645 2.47305 32.7076 2.40618 m 0 0 c 1.2102 -0.2638 2.3886 -0.24143 3.4942 0.11348 0 0 -1.353 -0.14803 -3.4942 -0.11348 z"/>
             </Canvas>
         </Canvas>
-
 
         <Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Name="svg635" Width="383" Height="329" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,-11,-11">
             <Canvas.RenderTransform>
@@ -67,9 +66,7 @@
             </Canvas>
         </Canvas>
 
-
         <TextBlock x:Name="MainCaloriesCount" Text="1234 3456" FontSize="40" Foreground="GhostWhite"  VerticalAlignment="Center" HorizontalAlignment="Center" Margin="50 20 20 100"/>
-
 
         <Button Margin="30 30 30 20" Click="AddDish_Click" x:Name="AddDish" Width="90" Height="90" HorizontalAlignment="Right" VerticalAlignment="Bottom">
             <Button.Content>
@@ -107,9 +104,6 @@
                 </Style>
             </Button.Style>
         </Button>
-
-
-
 
         <ListView Name="DishLV" Margin="10 120 660 10"  Width="330" Height="417" ScrollViewer.VerticalScrollBarVisibility="Hidden" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
             <ListView.ItemContainerStyle>
@@ -159,27 +153,18 @@
                 <DataTemplate>
                     <Grid Margin="10">
                         <StackPanel Orientation="Horizontal">
-                            <!--<Viewbox Height="22" VerticalAlignment="Center" HorizontalAlignment="Left">
-                                <CheckBox Content="{Binding Name}" x:Name="ProductCheckBox"/>
-                            </Viewbox>-->
                             <TextBlock x:Name="ProductName" Text="{Binding Name}" MaxWidth="240" TextWrapping="Wrap" FontSize="18"/>
                             <TextBlock Text=" - " MaxWidth="240" TextWrapping="Wrap" FontSize="18"/>
-
                             <TextBlock x:Name="ProductNameCalories" Text="{Binding Calories, StringFormat={}{0} ккал}" TextWrapping="Wrap" FontSize="18"/>
-
-                            <!--<TextBlock x:Name="ProductName" Text="{Binding Name}" FontSize="24" HorizontalAlignment="Center" FontFamily="Comic Sans MS" Margin="0 15 0 0" />-->
                         </StackPanel>
                     </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
 
-        
-        
         <Border Width="330" Height="56" Background="#4B998B" Margin="10 0 660 360"  BorderBrush="#2E645A" BorderThickness="3" CornerRadius="50 50 0 0">
             <TextBlock Text="Съедено за сегодня" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="28"/>
         </Border>
-
 
         <Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Margin="10 570.5 660 10" Name="svg39" Width="331.49353" Height="127.11677">
             <Canvas.RenderTransform>
@@ -202,6 +187,5 @@
 
         <Image Name="MishaPng" Visibility="Hidden" Source="/Resources/713M2_m9BcL__AC_UL960_QL65_-transformed.png" VerticalAlignment="Center" HorizontalAlignment="Right" Width="200" Margin="100 100 170 190" />
         <TextBlock Name="MishaTxt" Visibility="Hidden" Text="ВЫ УМЕРЛИ ОТ ПЕРЕДОЗА КАЛ" FontSize="30" Margin="200 310 100 50" Width="300" Foreground="DarkRed" TextAlignment="Center"   TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Right"/>
-
     </Grid>
 </Page>

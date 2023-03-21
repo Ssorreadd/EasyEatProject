@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:EasyEat.Pages"
       mc:Ignorable="d" Background="#B9F9C0"
-      d:DesignHeight="784.04" d:DesignWidth="1200" FontFamily="Comic Sans MS"
+      d:DesignHeight="784.04" d:DesignWidth="1200"
       Title="MainPage">
 
     <Grid>
@@ -80,7 +80,5 @@
 
         <Button Style="{DynamicResource NavigationButtonsStyle}" x:Name="back" Content="  Назад  " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40 25 25 25"  Click="back_Click" FontSize="24" />
         <Button Style="{DynamicResource NavigationButtonsStyle}" x:Name="NextButton" Content="  Далее  " HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="25 25 40 25"  Click="NextButton_Click" Visibility="Hidden" FontSize="24" />
-
-       
     </Grid>
 </Page>

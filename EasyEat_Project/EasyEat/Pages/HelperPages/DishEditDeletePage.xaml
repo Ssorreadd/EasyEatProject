@@ -11,13 +11,10 @@
     <Grid>
         <Border Background="#A5D8AB" BorderBrush="#52926F" BorderThickness="3" Grid.Row="1" CornerRadius="20"/>
 
-
         <StackPanel Orientation="Vertical">
-            <!--<Label Content="ProductNameLabel" HorizontalAlignment="Center" Margin="5" FontSize="20"/>-->
             <Border Background="#D6FFDA" BorderBrush="#23C68C" BorderThickness="3" Grid.Row="1" CornerRadius="10" Margin="5 10 5 0" HorizontalAlignment="Center">
                 <TextBlock Text="{Binding ProductName}" TextWrapping="Wrap" TextAlignment="Center" FontSize="18" Margin="5"/>
             </Border>
-
         </StackPanel>
 
         <StackPanel Orientation="Vertical" VerticalAlignment="Center">
@@ -33,8 +30,5 @@
         </StackPanel>
 
         <Button Content="Удалить" Name="RemoveProduct" FontSize="16" BorderBrush="#FF5E03" BorderThickness="2" Background="#FF833E" Click="RemoveProduct_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="30 30 30 30" Width="100" Style="{DynamicResource NavigationButtonsStyle}"/>
-
-
-
     </Grid>
 </Page>

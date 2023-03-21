@@ -5,6 +5,7 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Logo.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,6 +13,10 @@
     <None Remove="Resources\Bad To The Bone.wav" />
     <None Remove="Resources\man.png" />
     <None Remove="Resources\woman.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Logo.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,6 +39,7 @@
     <Resource Include="Resources\Bad To The Bone.wav" />
     <Resource Include="Resources\man.png" />
     <Resource Include="Resources\woman.png" />
+    <Resource Include="Fonts\Vinque_Rg.ttf" />
   </ItemGroup>
 
   <ItemGroup>

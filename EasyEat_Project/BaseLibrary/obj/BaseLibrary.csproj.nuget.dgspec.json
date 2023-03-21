@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\d169\\Desktop\\EasyEat\\BaseLibrary\\BaseLibrary.csproj": {}
+    "C:\\Users\\d169\\Desktop\\EasyEat\\EasyEat_Project\\BaseLibrary\\BaseLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\d169\\Desktop\\EasyEat\\BaseLibrary\\BaseLibrary.csproj": {
+    "C:\\Users\\d169\\Desktop\\EasyEat\\EasyEat_Project\\BaseLibrary\\BaseLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\d169\\Desktop\\EasyEat\\BaseLibrary\\BaseLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\d169\\Desktop\\EasyEat\\EasyEat_Project\\BaseLibrary\\BaseLibrary.csproj",
         "projectName": "BaseLibrary",
-        "projectPath": "C:\\Users\\d169\\Desktop\\EasyEat\\BaseLibrary\\BaseLibrary.csproj",
+        "projectPath": "C:\\Users\\d169\\Desktop\\EasyEat\\EasyEat_Project\\BaseLibrary\\BaseLibrary.csproj",
         "packagesPath": "C:\\Users\\d169\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\d169\\Desktop\\EasyEat\\BaseLibrary\\obj\\",
+        "outputPath": "C:\\Users\\d169\\Desktop\\EasyEat\\EasyEat_Project\\BaseLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -10,11 +10,13 @@ namespace EasyEat.Pages
     /// </summary>
     public partial class PlanPage : Page
     {
-        private static bool[] _access = new bool[4] { false, false, false, false };
+        private static bool[] _access;
 
         public PlanPage()
         {
             InitializeComponent();
+
+            _access = new bool[4] { false, false, false, false };
         }
 
         private void back_Click(object sender, RoutedEventArgs e)

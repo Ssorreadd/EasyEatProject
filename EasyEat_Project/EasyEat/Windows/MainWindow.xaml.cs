@@ -1,6 +1,5 @@
 ﻿using EasyEat.HelperClasses;
 using EasyEat.Pages;
-using EasyEat.Windows;
 using System.Windows;
 
 namespace EasyEat

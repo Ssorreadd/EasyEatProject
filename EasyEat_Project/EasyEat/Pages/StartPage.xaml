@@ -21,7 +21,7 @@
                     <Grid Margin="40 10 40 10">
                         <StackPanel Orientation="Vertical">
                             <Image Width="180" Source="{Binding SourceImage}"/>
-                            <TextBlock Text="{Binding TextContent}" FontSize="24" HorizontalAlignment="Center" FontFamily="Comic Sans MS" Margin="0 15 0 0" />
+                            <TextBlock Text="{Binding TextContent}" FontSize="24" HorizontalAlignment="Center" Margin="0 15 0 0" />
                         </StackPanel>
                     </Grid>
                 </DataTemplate>

@@ -19,22 +19,6 @@ namespace EasyEat.Pages
 
         public void SetData()
         {
-            //List<GenderType> gendersForLV = new List<GenderType>
-            //{
-            //    new GenderType
-            //    {
-            //        SourceImage = Properties.Resources.man,
-            //        TextContent = "Мужчина"
-            //    },
-
-            //    new GenderType { SourceImage = Properties.Resources.woman, TextContent = "Женщина" }
-            //};
-
-
-            //ChooseGenderLV.ItemsSource = gendersForLV;
-
-
-
             ChooseGenderLV.ItemsSource = new List<GenderType>
             {
                 new GenderType
@@ -55,6 +39,8 @@ namespace EasyEat.Pages
         {
             if (ChooseGenderLV.SelectedIndex != -1)
             {
+                User.Clear();
+
                 User.Gender = ((GenderType)ChooseGenderLV.SelectedItem).TextContent;
                 AnimationManager.GoToPageAnimation(new PlanPage());
             }
